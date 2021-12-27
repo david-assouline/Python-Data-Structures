@@ -111,11 +111,7 @@ class LinkedList:
             temp.next = before_temp
             before_temp = temp
             temp = after_temp
-            
-        
-        
-            
-    
+                
     def print_list(self):
         if self.length <= 0:
             print("Cannot print an empty list")
@@ -131,11 +127,6 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
-    
-my_linked_list = LinkedList(4)
-my_linked_list.remove(0)
-my_linked_list.print_list()
-
 
 
 
